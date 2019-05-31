@@ -5,7 +5,7 @@ module Openhood
 		def self.run(mode, effect, secret, data)
 			cipher = OpenSSL::Cipher.new(mode)
 
-			cipher.call(effect.to_sym)
+			cipher.send(effect.to_sym)
 
 			cipher.key = secret[:key]
 			cipher.iv = secret[:iv]

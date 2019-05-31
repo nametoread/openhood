@@ -1,8 +1,10 @@
 require "openhood/version"
-require "openhood/ui"
+
+require "openhood/bridge"
+require "openhood/clui"
+require "openhood/device"
+require "openhood/key"
 
 module Openhood
 	class Error < StandardError; end
 end
-
-Openhood::UI.run()

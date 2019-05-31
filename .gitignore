@@ -6,4 +6,8 @@
 /pkg/
 /spec/reports/
 /tmp/
+
 *.code-workspace
+*.dat
+*.gem
+Gemfile.lock
