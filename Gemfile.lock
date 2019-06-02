@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    openhood (0.1.0)
+    openhood (0.2.0)
       openssl
 
 GEM

@@ -1,5 +1,7 @@
 # Openhood
 
+[![Gem Version](https://badge.fury.io/rb/openhood@2x.png)](https://badge.fury.io/rb/openhood)
+
 Written with Bundler 2, Ruby 2.6.3
 
 ## Usage
@@ -11,7 +13,7 @@ Openhood::Bridge.methods   # methods for in-script use
 
 ## Development
 
-Done in one night (;
+Done in less then one night (;
 
 ## Contributing
 
